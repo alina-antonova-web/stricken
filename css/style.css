@@ -1,0 +1,45 @@
+body{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Pattaya', sans-serif;
+    background: MistyRose;
+    width: 800px;
+    margin: auto;
+    color: DimGrey;
+}
+h1 {
+    color: IndianRed;
+    text-align: center;
+}
+h2{
+	color: IndianRed;
+}
+a{
+	color: DarkSlateGrey;
+	font-size: larger;
+}
+div{
+	width: 800px;
+	margin: auto;
+}
+div.blok_left {
+    width: 500px;
+    float: left;
+    padding:10px;
+}
+div.blok_right{
+	width: 250px;
+	float: right;
+}
+div.clear{
+	clear:both;
+}
+img{
+	float: right;
+	border: 5px solid MistyRose;
+	border-radius:20px;
+	margin: 10px;
+}
+footer{	
+	clear:both;
+}
