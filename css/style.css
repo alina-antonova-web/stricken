@@ -8,11 +8,11 @@ body{
     margin: auto;
 }
 header, nav, article{
-	float: center;
+	float: none;
 	text-align: center;
 }
 h1, h2 {
-    color: #CD5C5C; // IndianRed
+    color: #CD5C5C; /* IndianRed */
     text-align: center;
     width: 100%;
 }
@@ -20,7 +20,7 @@ nav{
 	text-align:center;
 }
 a{
-	color: #2F4F4F; // DarkSlateGrey;
+	color: #2F4F4F; /* DarkSlateGrey */
 	text-decoration: none;
 }
 a:hover {
@@ -42,16 +42,16 @@ div.blok_left {
 }
 .blok_left p{
 	text-align: justify;
-	margin:0px;
+	margin:0;
 }
 .blok_left p::first-letter {
     padding-left:20px;
 }
-div.blok_right{
+.blok_right{
 	width: 250px;
 	float: right;
 }
-div.clear{
+.clear{
 	clear:both;
 	text-align: justify;
 }
@@ -80,22 +80,26 @@ footer table td{
 	width:50%;
 }
 
-#table_size{
+.table_size {
 	width: 400px;
 }
-#table_size td, th{	
+.table_size td, th{	
 	border: 1px solid #FFC0CB;	
 }
-#table_size thead{
-	background: #FFC0CB; //Pink
+.table_size thead{
+	background: #FFC0CB; /* Pink */
 }
-#table_size thead th{
+.table_size thead th{
 	text-align: center;
 }
-#table_size tfoot th{
+.table_size tfoot th{
 	text-align: left;
 	padding-left: 20px;
 }
-#map{
+.map{
+	clear:both;
 	text-align: center;
+}
+iframe{
+	border: 0;
 }
